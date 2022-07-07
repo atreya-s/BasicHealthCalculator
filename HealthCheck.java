@@ -1,5 +1,10 @@
 public class HealthCheck {
-    
+   /**
+   * @param height in cm
+   * @param weight in kilograms
+   * @return BMI and BMR(Calories used during resting metabolic state)
+   * all calculations are based on forumals found on the internet
+   */
     private static double height;
     private static double weight;
     private static int age;
